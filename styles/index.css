@@ -1,0 +1,50 @@
+#container {
+    flex: 2 50%;
+}
+
+body {
+    background-color: #228bc4; /* Replace with your desired color code or name */
+}
+
+.gameBox {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    float: right;
+    height: 98vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 49.5%;
+}
+
+.mathBox {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    float: left;
+    position: relative, bottom left;
+    height: 48vh;
+    width: 49.5%;
+}
+
+.displayBox {
+    background-color: white;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    height: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eventBox {
+    background-color: white;
+    color: black;
+    position: relative;
+    height: 80%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
