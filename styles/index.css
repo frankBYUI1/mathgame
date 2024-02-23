@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: #228bc4; /* Replace with your desired color code or name */
+    background-color: rgb(250, 27, 116);
 }
 
 .gameBox {
-    background-color: blue;
+    background-color: rgb(250, 27, 116);
     color: white;
     text-align: center;
     float: right;
@@ -18,7 +18,6 @@ body {
 }
 
 .mathBox {
-    background-color: rgb(255, 255, 255);
     color: white;
     text-align: center;
     float: left;
@@ -28,8 +27,7 @@ body {
 }
 
 .displayBox {
-    background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
     font-size: 2em;
