@@ -1,48 +1,51 @@
 #container {
-    flex: 2 50%;
+  flex: 2/1 50%;
 }
 
 body {
-    background-color: rgb(250, 27, 116);
+  background-color: rgb(250, 27, 116);
 }
 
 .gameBox {
-    background-color: rgb(250, 27, 116);
-    color: white;
-    text-align: center;
-    float: right;
-    height: 98vh;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    width: 49.5%;
+  background-color: rgb(250, 27, 116);
+  color: white;
+  text-align: center;
+  float: right;
+  height: 98vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 49.5%;
 }
 
 .mathBox {
-    color: white;
-    text-align: center;
-    float: left;
-    position: relative, bottom left;
-    height: 48vh;
-    width: 49.5%;
+  color: white;
+  text-align: center;
+  float: left;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 48vh;
+  width: 49.5%;
 }
 
 .displayBox {
-    color: rgb(255, 255, 255);
-    position: relative;
-    text-align: center;
-    font-size: 2em;
-    height: 10%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  height: auto; /* Adjust the height as needed */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .eventBox {
-    background-color: white;
-    color: black;
-    position: relative;
-    height: 80%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: white;
+  color: black;
+  position: relative;
+  height: 80%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
