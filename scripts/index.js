@@ -30,20 +30,36 @@ function createEquationBox() {
             <p>Math BOX</p>
         </div>`;
     mathBox.appendChild(equationBox);
+
     const numberBox = document.createElement("div");
     numberBox.classList.add("displayBox");
     const firstNumber = getRandomNumber();
     const secondNumber = getRandomNumber();
     const sum = firstNumber + secondNumber;
     numberBox.innerHTML = 
-    `<div> 
-        <h1>Math Game</h1>
-        <h2>${firstNumber} + ${secondNumber} = ${sum}</h2>
-        <h4>For Smart People</h4>
-    </div>`;
+        `<div> 
+            <h1>Math Game</h1>
+            <h2>${firstNumber} + ${secondNumber} = 
+            <input type="number" id="userAnswer" placeholder="Result"> 
+            </h2>
+            <h4>For Smart People</h4>
+            <button onclick="checkAnswer()">Check Answer</button>
+        </div>`;
     equationBox.appendChild(numberBox);
 }
 
+function checkAnswer() {
+    const answerInput = document.getElementById("userAnswer");
+    const userAnswer = parseInt(answerInput.value);
+    const firstNumber = parseInt(answerInput.previousSibling.textContent);
+    const secondNumber = parseInt(answerInput.previousSibling.textContent);
+    const correctAnswer = firstNumber + secondNumber; 
+    if (userAnswer === correctAnswer) {
+        alert("Correct answer! Well done!");
+    } else {
+        alert("Incorrect answer. Please try again.");
+    }
+}
 
 createGameBox();
 createEquationBox();
