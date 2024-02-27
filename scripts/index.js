@@ -18,6 +18,7 @@ function createGameBox() {
             <p>Game BOX</p> 
         </div>`;
     // Append the gameBox div to the HTML element with ID "gameBox"
+
     gameBox.appendChild(testElement);
     
     // Create a play area inside the gameBox
