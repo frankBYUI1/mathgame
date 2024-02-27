@@ -1,50 +1,50 @@
 #container {
-    flex: 2 50%;
+  flex: 2/1 50%; /* Set the flex property for the container with a ratio of 2:1 and a 50% width */
 }
 
 body {
-    background-color: #228bc4; /* Replace with your desired color code or name */
+  background-color: rgb(250, 27, 116); /* Set the background color of the body */
 }
 
 .gameBox {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    float: right;
-    height: 98vh;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    width: 49.5%;
+  background-color: rgb(250, 27, 116); /* Set the background color for the gameBox */
+  color: white; /* Set the text color to white */
+  text-align: center; /* Center-align the text */
+  float: right; /* Float the element to the right */
+  height: 98vh; /* Set the height to 98% of the viewport height */
+  padding-bottom: 0; /* Remove bottom padding */
+  margin-bottom: 0; /* Remove bottom margin */
+  width: 49.5%; /* Set the width to 49.5% of the container */
 }
 
 .mathBox {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    float: left;
-    position: relative, bottom left;
-    height: 48vh;
-    width: 49.5%;
+  color: white; /* Set the text color to white */
+  text-align: center; /* Center-align the text */
+  float: left; /* Float the element to the left */
+  position: relative; /* Set the positioning to relative */
+  bottom: 0; /* Align the bottom to 0 */
+  left: 0; /* Align the left to 0 */
+  height: 48vh; /* Set the height to 48% of the viewport height */
+  width: 49.5%; /* Set the width to 49.5% of the container */
 }
 
 .displayBox {
-    background-color: white;
-    color: black;
-    position: relative;
-    text-align: center;
-    font-size: 2em;
-    height: 10%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  color: rgb(255, 255, 255); /* Set the text color to white */
+  position: relative; /* Set the positioning to relative */
+  text-align: center; /* Center-align the text */
+  font-size: 2em; /* Set the font size to 2em */
+  height: auto; /* Allow the height to adjust automatically */
+  width: 90%; /* Set the width to 90% of the container */
+  margin-left: auto; /* Set left margin to auto for centering */
+  margin-right: auto; /* Set right margin to auto for centering */
 }
 
 .eventBox {
-    background-color: white;
-    color: black;
-    position: relative;
-    height: 80%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: white; /* Set the background color for the eventBox */
+  color: black; /* Set the text color to black */
+  position: relative; /* Set the positioning to relative */
+  height: 80%; /* Set the height to 80% of the container */
+  width: 90%; /* Set the width to 90% of the container */
+  margin-left: auto; /* Set left margin to auto for centering */
+  margin-right: auto; /* Set right margin to auto for centering */
 }
